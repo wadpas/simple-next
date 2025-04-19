@@ -6,11 +6,7 @@ export const metadata: Metadata = {
   description: 'Smart shopping',
 }
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='en'>
       <body className={`bg-gray-50  antialiased`}>{children}</body>
